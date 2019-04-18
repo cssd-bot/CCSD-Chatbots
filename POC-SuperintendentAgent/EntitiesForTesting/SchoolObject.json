@@ -1,0 +1,43 @@
+{
+  "id": "07adbb58-f901-4e40-97ae-5231b4d508e4",
+  "name": "SchoolObject",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Schools",
+      "synonyms": [
+        "School",
+        "Schools"
+      ]
+    },
+    {
+        "value": "Communities",
+        "synonyms": [
+            "Communities",
+            "Community",
+            "Quadrant",
+            "City"
+        ]
+    },
+    {
+      "value": "Roles",
+      "synonyms": [
+        "Roles",
+        "Role",
+        "Jobs",
+        "Job"
+      ]
+    },
+    {
+      "value": "Staff",
+      "synonyms": [
+        "Staff",
+        "Employees",
+        "Employee"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

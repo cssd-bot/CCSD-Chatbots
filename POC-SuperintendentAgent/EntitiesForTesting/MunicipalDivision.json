@@ -1,0 +1,114 @@
+{
+  "id": "c8ad58a6-74f2-4a0a-b576-99a3d6950876",
+  "name": "MunicipalDivision",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Christie Park",
+      "synonyms": [
+        "Christie Park"
+      ]
+    },
+    {
+      "value": "Scenic Acres",
+      "synonyms": [
+        "Scenic Acres"
+      ]
+    },
+    {
+      "value": "Lake Bonavista",
+      "synonyms": [
+        "Lake Bonavista",
+        "Bonavista"
+      ]
+    },
+    {
+      "value": "Prominence Point",
+      "synonyms": [
+        "Prominence Point"
+      ]
+    },
+    {
+      "value": "Braeside",
+      "synonyms": [
+        "Braeside"
+      ]
+    },
+    {
+      "value": "Acadia",
+      "synonyms": [
+        "Acadia"
+      ]
+    },
+    {
+      "value": "North West",
+      "synonyms": [
+        "North West",
+        "NW"
+      ]
+    },
+    {
+      "value": "Lynx Ridge",
+      "synonyms": [
+        "Lynx Ridge"
+      ]
+    },
+    {
+      "value": "North East",
+      "synonyms": [
+        "North East",
+        "NE"
+      ]
+    },
+    {
+      "value": "Oakridge",
+      "synonyms": [
+        "Oakridge"
+      ]
+    },
+    {
+      "value": "Grandview",
+      "synonyms": [
+        "Grandview"
+      ]
+    },
+    {
+      "value": "South East",
+      "synonyms": [
+        "South East",
+        "SE"
+      ]
+    },
+    {
+      "value": "South West",
+      "synonyms": [
+        "South West",
+        "SW"
+      ]
+    },
+    {
+      "value": "CFB - Lincoln Park Pmq",
+      "synonyms": [
+        "CFB - Lincoln Park Pmq",
+        "Lincoln Park",
+        "Lincoln Park Pmq"
+      ]
+    },
+    {
+      "value": "Parkdale",
+      "synonyms": [
+        "Parkdale"
+      ]
+    },
+    {
+      "value": "Calgary",
+      "synonyms": [
+        "Calgary",
+        "YYC"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

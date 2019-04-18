@@ -1,0 +1,76 @@
+{
+  "id": "7e3981db-6b60-44a4-ad71-25c1eeb3e4af",
+  "name": "Role",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Teacher",
+      "synonyms": [
+        "Teacher",
+        "Trachers",
+        "Instructor",
+        "instructors"
+      ]
+    },
+    {
+      "value": "Custodian",
+      "synonyms": [
+        "Custodian",
+        "Custodians",
+        "Janitor",
+        "Janitors"
+      ]
+    },
+    {
+      "value": "Secretary",
+      "synonyms": [
+        "Secretary",
+        "Secretaries"
+      ]
+    },
+    {
+      "value": "Principal",
+      "synonyms": [
+        "Principal",
+        "Principals"
+      ]
+    },
+    {
+      "value": "Superintendent",
+      "synonyms": [
+        "Superintendent",
+        "Superintendents"
+      ]
+    },
+    {
+      "value": "Assistant Principal",
+      "synonyms": [
+        "Assistant Principal",
+        "Assistant Principals"
+      ]
+    },
+    {
+      "value": "Trustee",
+      "synonyms": [
+        "Trustee",
+        "Trustees"
+      ]
+    },
+    {
+      "value": "Vice Principal",
+      "synonyms": [
+        "Vice Principal",
+        "Vice Principals"
+      ]
+    },
+    {
+      "value": "Interpreter",
+      "synonyms": [
+        "Interpreter"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

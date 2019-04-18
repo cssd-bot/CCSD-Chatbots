@@ -1,0 +1,58 @@
+{
+  "id": "dbaefe9a-f477-4fb2-aefc-2d6c0fb650c2",
+  "name": "DistrictProgram",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Advanced Placement",
+      "synonyms": [
+        "Advanced Placement",
+        "AP"
+      ]
+    },
+    {
+      "value": "French Immersion",
+      "synonyms": [
+        "French Imersion",
+        "Early french Immersion",
+        "French Immersion"
+      ]
+    },
+    {
+      "value": "ELL Preschool",
+      "synonyms": [
+        "ELL Preschool"
+      ]
+    },
+    {
+      "value": "Fine and Perfroming Arts",
+      "synonyms": [
+        "Fine and Perfroming Arts",
+        "Fine Arts"
+      ]
+    },
+    {
+      "value": "Hockey Canada Skills",
+      "synonyms": [
+        "Hockey Canada Skills",
+        "Hockey Canada Skills Academy"
+      ]
+    },
+    {
+      "value": "Summer School",
+      "synonyms": [
+        "Summer School"
+      ]
+    },
+    {
+      "value": "Year-Round Education",
+      "synonyms": [
+        "Year-Round Education",
+        "Year Round Education"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

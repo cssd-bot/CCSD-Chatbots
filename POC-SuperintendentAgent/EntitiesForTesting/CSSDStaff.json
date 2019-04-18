@@ -1,0 +1,46 @@
+{
+  "id": "1bdda4ac-9ae3-48de-9cd9-484afddc8dbe",
+  "name": "CSSDStaff",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "John Wasch",
+      "synonyms": [
+        "John Wasch"
+      ]
+    },
+    {
+      "value": "Ray Vizina",
+      "synonyms": [
+        "Ray Vizina"
+      ]
+    },
+    {
+      "value": "Tonia Hemsing",
+      "synonyms": [
+        "Tonia Hemsing"
+      ]
+    },
+    {
+      "value": "Angela Sebella",
+      "synonyms": [
+        "Angela Sebella"
+      ]
+    },
+    {
+      "value": "Gray Strothers",
+      "synonyms": [
+        "Gray Strothers"
+      ]
+    },
+    {
+      "value": "Karl Burndorfer",
+      "synonyms": [
+        "Karl Burndorfer"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

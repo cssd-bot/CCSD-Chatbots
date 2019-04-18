@@ -1,0 +1,109 @@
+{
+  "id": "0d1f78fc-5a56-400e-a09b-0fe603c2a3bd",
+  "name": "School",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Bishop Carroll",
+      "synonyms": [
+        "Bishop Carroll",
+        "Bishop Carroll High School",
+        "Bishop Carol",
+        "Bishop Carrol"
+      ]
+    },
+    {
+      "value": "Notre Dame",
+      "synonyms": [
+        "Notre Dame"
+      ]
+    },
+    {
+      "value": "St. Rita",
+      "synonyms": [
+        "St. Rita",
+        "St Rita",
+        "Saint Rita",
+        "St. Rita School"
+      ]
+    },
+    {
+      "value": "Bishop Kidd",
+      "synonyms": [
+        "Bishop Kidd",
+        "Bishop Kidd School"
+      ]
+    },
+    {
+      "value": "Bishop Grandin",
+      "synonyms": [
+        "Bishop Grandin",
+        "Bishop Grandin High School"
+      ]
+    },
+    {
+      "value": "Ascension of Our Lord",
+      "synonyms": [
+        "Ascension of Our Lord",
+        "Ascension of Our Lord School",
+        "Ascension"
+      ]
+    },
+    {
+      "value": "St. Luke",
+      "synonyms": [
+        "St. Luke",
+        "St Luke",
+        "Saint Luke"
+      ]
+    },
+    {
+      "value": "Apostles of Jesus",
+      "synonyms": [
+        "Apostles of Jesus",
+        "Apostles of Jesus School"
+      ]
+    },
+    {
+      "value": "Bishop O'Byrne",
+      "synonyms": [
+        "Bishop O'Byrne",
+        "Bishop O'Byrne High School",
+        "Bishop OByrne"
+      ]
+    },
+    {
+      "value": "Bishop McNally",
+      "synonyms": [
+        "Bishop McNally",
+        "Bishop McNally High School"
+      ]
+    },
+    {
+      "value": "St. Veronica",
+      "synonyms": [
+        "St. Veronica",
+        "St Veronica"
+      ]
+    },
+    {
+      "value": "All Saints",
+      "synonyms": [
+        "All Saints",
+        "All Saints High School"
+      ]
+    },
+    {
+      "value": "Calgary Catholic School District",
+      "synonyms": [
+        "Calgary Catholic School District",
+        "CCSD",
+        "CSSD",
+        "Calgary Catholic"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

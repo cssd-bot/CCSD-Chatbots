@@ -1,0 +1,49 @@
+{
+  "id": "15492cf7-8ffa-4a91-a6a8-5edc783e71a6",
+  "name": "QueryAction",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Show",
+      "synonyms": [
+        "Show",
+        "Display",
+        "List",
+        "What are",
+        "What",
+        "Who is",
+        "Who are",
+        "What does",
+        "What is",
+        "Who's",
+        "Does",
+        "Do we"
+      ]
+    },
+    {
+      "value": "Count",
+      "synonyms": [
+        "How many",
+        "Count",
+        "Give a count",
+        "Give me a count",
+        "Total",
+        "Number of",
+        "Total number of",
+        "Give me the count"
+      ]
+    },
+    {
+      "value": "Where",
+      "synonyms": [
+        "Where",
+        "Where is",
+        "Where are",
+        "Where does"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

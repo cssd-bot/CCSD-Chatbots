@@ -1,0 +1,1101 @@
+{
+  "id": "27750933-4537-4185-9e61-98d7bd1a4b99",
+  "name": "SchoolandStaff",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.getSchoolStaffInfo",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9f348839-226d-4e6d-8a63-1a397e683abe",
+          "required": false,
+          "dataType": "@Role",
+          "name": "Role",
+          "value": "$Role",
+          "prompts": [
+            "For what Role would you like",
+            "Do you know the Role"
+          ],
+          "isList": false
+        },
+        {
+          "id": "79e16cbd-d26a-4b5e-9952-f97738d6530f",
+          "required": false,
+          "dataType": "@School",
+          "name": "School",
+          "value": "$School",
+          "prompts": [
+            "For what school",
+            "Which school would that be for"
+          ],
+          "isList": false
+        },
+        {
+          "id": "5be658bd-6638-4a39-af52-0f9ca62de492",
+          "required": false,
+          "dataType": "@QueryAction",
+          "name": "QueryAction",
+          "value": "$QueryAction",
+          "isList": false
+        },
+        {
+          "id": "fd9f2d99-7d7e-4d26-ba02-4d68a55fe65c",
+          "required": false,
+          "dataType": "@SchoolObject",
+          "name": "SchoolObject",
+          "value": "$SchoolObject",
+          "isList": false
+        },
+        {
+          "id": "102cf40d-56aa-427a-87a3-f54ef8b8e6d4",
+          "required": false,
+          "dataType": "@MunicipalDivision",
+          "name": "MunicipalDivision",
+          "value": "$MunicipalDivision",
+          "isList": false
+        },
+        {
+          "id": "8e754f8d-df3e-4359-b486-eee8c0059888",
+          "required": false,
+          "dataType": "@CSSDStaff",
+          "name": "CSSDStaff",
+          "value": "$CSSDStaff",
+          "isList": false
+        },
+        {
+          "id": "4dfe6c2a-844a-40cb-a50e-207ca76957c4",
+          "required": false,
+          "dataType": "@QueryAction",
+          "name": "QueryAction1",
+          "value": "$QueryAction1",
+          "isList": false
+        },
+        {
+          "id": "ec9a9d1b-8dfc-4f6b-bc9f-26794e93460e",
+          "required": false,
+          "dataType": "@DistrictProgram",
+          "name": "DistrictProgram",
+          "value": "$DistrictProgram",
+          "isList": false
+        },
+        {
+          "id": "375ac63a-35f6-49b5-9dd9-8e2a8d819fdd",
+          "required": false,
+          "dataType": "@sys.language",
+          "name": "language",
+          "value": "$language",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "73412bee-bcb9-4c78-b632-dc010911d54b",
+      "data": [
+        {
+          "text": "Where does",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Tonia Hemsing",
+          "alias": "CSSDStaff",
+          "meta": "@CSSDStaff",
+          "userDefined": false
+        },
+        {
+          "text": " work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ff5945cf-f2e6-419f-aec1-64ef81f8806e",
+      "data": [
+        {
+          "text": "Where is",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Tonia Hemsing",
+          "alias": "CSSDStaff",
+          "meta": "@CSSDStaff",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "860ab188-7273-44df-bc51-08be1465393d",
+      "data": [
+        {
+          "text": "Do we",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " have "
+        },
+        {
+          "text": "German",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "interpreters",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a6fccf93-23e4-4ab4-80ec-7c68a91eeb6b",
+      "data": [
+        {
+          "text": "Do we",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " have "
+        },
+        {
+          "text": "interpreters",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " for "
+        },
+        {
+          "text": "Russian",
+          "alias": "language",
+          "meta": "@sys.language",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "51a10cb3-22fc-4cf3-8cf3-f983e831c726",
+      "data": [
+        {
+          "text": "Where is",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Acadia",
+          "alias": "MunicipalDivision",
+          "meta": "@MunicipalDivision",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e340d0d6-8eab-4120-a190-af779061c345",
+      "data": [
+        {
+          "text": "Where is",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Bishop Grandin",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cc6c426e-57a1-4ecc-9253-715e7638fc03",
+      "data": [
+        {
+          "text": "whats",
+          "alias": "QueryAction1",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "total number of",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "teachers",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "cssd",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "71b7462d-3eef-48fd-9990-c58002e11a1f",
+      "data": [
+        {
+          "text": "Does",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Angela sebella",
+          "alias": "CSSDStaff",
+          "meta": "@CSSDStaff",
+          "userDefined": false
+        },
+        {
+          "text": " work at "
+        },
+        {
+          "text": "Bishop McNally",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0d42b0f0-a5d7-4b3b-9d01-f543512c07df",
+      "data": [
+        {
+          "text": "What",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "schools",
+          "alias": "SchoolObject",
+          "meta": "@SchoolObject",
+          "userDefined": false
+        },
+        {
+          "text": " have "
+        },
+        {
+          "text": "french immersion",
+          "alias": "DistrictProgram",
+          "meta": "@DistrictProgram",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "60694e98-d160-49ba-99a5-e3f489a3bb0e",
+      "data": [
+        {
+          "text": "Give me a "
+        },
+        {
+          "text": "list",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "teachers",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Bishop McNally",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f90852dd-965b-4440-8695-56c04ff12c44",
+      "data": [
+        {
+          "text": "Who is",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Angela Sebella",
+          "alias": "CSSDStaff",
+          "meta": "@CSSDStaff",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bdf5e4e2-6ec1-4c92-99cd-b9352334eb68",
+      "data": [
+        {
+          "text": "What's the "
+        },
+        {
+          "text": "total number of",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Teachers",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9a1a7ded-aec9-4ef5-ba5d-1ba6d0c3e1a6",
+      "data": [
+        {
+          "text": "How many",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Superintendents",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " do we have in "
+        },
+        {
+          "text": "total",
+          "alias": "QueryAction1",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "92057cac-f38e-4b76-9658-792eefe8c47d",
+      "data": [
+        {
+          "text": "What are",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Ray Vizina",
+          "alias": "CSSDStaff",
+          "meta": "@CSSDStaff",
+          "userDefined": false
+        },
+        {
+          "text": "'s "
+        },
+        {
+          "text": "roles",
+          "alias": "SchoolObject",
+          "meta": "@SchoolObject",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fe968cd9-7681-44df-8412-57beb30552ff",
+      "data": [
+        {
+          "text": "What",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "schools",
+          "alias": "SchoolObject",
+          "meta": "@SchoolObject",
+          "userDefined": false
+        },
+        {
+          "text": " are in "
+        },
+        {
+          "text": "acadia",
+          "alias": "MunicipalDivision",
+          "meta": "@MunicipalDivision",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c1b3f0d2-240d-4158-8bf5-b2d39dfc0d3b",
+      "data": [
+        {
+          "text": "Does",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "St. Rita",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": " offer "
+        },
+        {
+          "text": "French Immersion",
+          "alias": "DistrictProgram",
+          "meta": "@DistrictProgram",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "05e3f0e9-7800-4403-b30d-c50a7c60c20d",
+      "data": [
+        {
+          "text": "Show",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " me the "
+        },
+        {
+          "text": "staff",
+          "alias": "SchoolObject",
+          "meta": "@SchoolObject",
+          "userDefined": true
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Ascension",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7c90ebf4-2cbe-4004-b092-13e537fce9ff",
+      "data": [
+        {
+          "text": "Who are",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " our "
+        },
+        {
+          "text": "trustees",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4c872fbb-558a-408e-bba3-6c248af4e0f2",
+      "data": [
+        {
+          "text": "Give me a "
+        },
+        {
+          "text": "list",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "custodians",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " from "
+        },
+        {
+          "text": "Bishop McNally",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "772bc274-7888-49c1-8f92-e420a7a43483",
+      "data": [
+        {
+          "text": "What's the "
+        },
+        {
+          "text": "count",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " of "
+        },
+        {
+          "text": "schools",
+          "alias": "SchoolObject",
+          "meta": "@SchoolObject",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "Braeside",
+          "alias": "MunicipalDivision",
+          "meta": "@MunicipalDivision",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3c5274b7-413b-4181-be17-7798ffaa53a8",
+      "data": [
+        {
+          "text": "Who is",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "principal",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": true
+        },
+        {
+          "text": " at  "
+        },
+        {
+          "text": "St. Veronica",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f8f7e0e5-fd36-4aa6-8fea-7dfa810965a4",
+      "data": [
+        {
+          "text": "Show",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " me the "
+        },
+        {
+          "text": "Secretaries",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Bishop Carroll",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cf77165a-3c61-4a35-8be4-26bef5751a85",
+      "data": [
+        {
+          "text": "How many",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "teachers",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " do we have?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e0eef1b2-8398-4c27-bc35-64281d176890",
+      "data": [
+        {
+          "text": "What",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Roles",
+          "alias": "SchoolObject",
+          "meta": "@SchoolObject",
+          "userDefined": false
+        },
+        {
+          "text": " do they have at "
+        },
+        {
+          "text": "CSSD",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f1ba28aa-9214-4200-87d9-777a4e9905b1",
+      "data": [
+        {
+          "text": "What does",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "Fred Green",
+          "alias": "CSSDStaff",
+          "meta": "@CSSDStaff",
+          "userDefined": false
+        },
+        {
+          "text": " do at "
+        },
+        {
+          "text": "St. Luke",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b5fe83cc-f941-4c6c-bffa-6be44e09008a",
+      "data": [
+        {
+          "text": "Who are",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "staff",
+          "alias": "SchoolObject",
+          "meta": "@SchoolObject",
+          "userDefined": true
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "St. Luke",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "473ca4a6-8872-40f6-ba95-d450483065e1",
+      "data": [
+        {
+          "text": "Who are",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "vice principals",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5cb0a038-2791-4bae-92ac-2b34fbd86944",
+      "data": [
+        {
+          "text": "Show",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " me all the "
+        },
+        {
+          "text": "Assistant Principals",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9903d76d-5f96-4a11-99a7-d7f9cb7c4e05",
+      "data": [
+        {
+          "text": "Who are",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " the "
+        },
+        {
+          "text": "Teachers",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " at "
+        },
+        {
+          "text": "Notre Dame",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3f53fc25-078c-491e-b79a-6a67d052aef5",
+      "data": [
+        {
+          "text": "How many",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "secretaries",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " do we have at "
+        },
+        {
+          "text": "St. Luke",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7ecf3efd-c9bf-4fbe-995d-2b37b8b6be4a",
+      "data": [
+        {
+          "text": "Who has",
+          "alias": "QueryAction",
+          "meta": "@QueryAction",
+          "userDefined": true
+        },
+        {
+          "text": " the role of "
+        },
+        {
+          "text": "Principal",
+          "alias": "Role",
+          "meta": "@Role",
+          "userDefined": false
+        },
+        {
+          "text": " in "
+        },
+        {
+          "text": "St. Rita",
+          "alias": "School",
+          "meta": "@School",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "templates": []
+}
