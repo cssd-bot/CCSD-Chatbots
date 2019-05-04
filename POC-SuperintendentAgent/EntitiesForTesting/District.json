@@ -1,0 +1,23 @@
+{
+  "id": "5665a4be-9ce6-4372-9899-2167c35f84ba",
+  "name": "District",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "CCSD",
+      "synonyms": [
+        "CCSD",
+        "CSSD",
+        "Us",
+        "The DIstrict",
+        "our District",
+        "our school board",
+        "Catholic School board"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}
