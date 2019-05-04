@@ -38,9 +38,16 @@
       "synonyms": [
         "Karl Burndorfer"
       ]
+    },
+    {
+      "value": "Lisa Sombach",
+      "synonyms": [
+        "Lisa Sombach"
+      ]
     }
   ],
   "isEnum": true,
   "automatedExpansion": false,
-  "allowFuzzyExtraction": false
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
 }
