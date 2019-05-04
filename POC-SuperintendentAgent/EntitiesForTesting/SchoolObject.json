@@ -11,19 +11,19 @@
       ]
     },
     {
-        "value": "Communities",
-        "synonyms": [
-            "Communities",
-            "Community",
-            "Quadrant",
-            "City"
-        ]
+      "value": "Community",
+      "synonyms": [
+        "Community",
+        "Communities",
+        "Quadrant",
+        "City"
+      ]
     },
     {
       "value": "Roles",
       "synonyms": [
-        "Roles",
         "Role",
+        "Roles",
         "Jobs",
         "Job"
       ]
@@ -32,12 +32,24 @@
       "value": "Staff",
       "synonyms": [
         "Staff",
-        "Employees",
-        "Employee"
+        "Employee",
+        "Employees"
+      ]
+    },
+    {
+      "value": "Program",
+      "synonyms": [
+        "Program",
+        "District Program",
+        "Track",
+        "Programs",
+        "District Programs",
+        "Tracks"
       ]
     }
   ],
   "isEnum": false,
   "automatedExpansion": false,
-  "allowFuzzyExtraction": false
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
 }
