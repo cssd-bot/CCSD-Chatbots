@@ -1,5 +1,5 @@
 {
-  "id": "0d1f78fc-5a56-400e-a09b-0fe603c2a3bd",
+  "id": "2a657bc0-6782-4a8b-a0b9-4c22600edd2b",
   "name": "School",
   "isOverridable": true,
   "entries": [
@@ -92,18 +92,10 @@
         "All Saints",
         "All Saints High School"
       ]
-    },
-    {
-      "value": "Calgary Catholic School District",
-      "synonyms": [
-        "Calgary Catholic School District",
-        "CCSD",
-        "CSSD",
-        "Calgary Catholic"
-      ]
     }
   ],
   "isEnum": false,
   "automatedExpansion": false,
-  "allowFuzzyExtraction": false
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
 }
