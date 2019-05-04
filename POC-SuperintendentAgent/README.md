@@ -1,6 +1,6 @@
 # CCSD-Chatbots - POC-Superintendent Agent
 
-DialogFlow POC Agent for Superintendent use
+DialogFlow POC Agent, intended for Superintendent use
 
 You will need to have a Google Account and go to https://console.dialogflow.com/
 Create your intial Agent
