@@ -1,0 +1,47 @@
+{
+  "id": "538a4592-cc2d-43fa-b4ef-3c23373eaa96",
+  "name": "Aggregate",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "Min",
+      "synonyms": [
+        "Min",
+        "Minimun",
+        "Least"
+      ]
+    },
+    {
+      "value": "Max",
+      "synonyms": [
+        "Max",
+        "Maximum",
+        "Most"
+      ]
+    },
+    {
+      "value": "Avg",
+      "synonyms": [
+        "Avg",
+        "Average",
+        "Median"
+      ]
+    },
+    {
+      "value": "FIrst",
+      "synonyms": [
+        "FIrst"
+      ]
+    },
+    {
+      "value": "Last",
+      "synonyms": [
+        "Last"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}
