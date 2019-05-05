@@ -71,3 +71,6 @@ What we don’t know - Start of Questions:
     2. What do stakeholders want answers to? 
     3. What types of questions arise from specific events like Parent/Teacher conference that your wouldn’t have answers for? Would enumerating all the different events help?
     4. Get Stakeholder ranking priority, hone in on key use-cases.
+
+## Posted questions on forums
+1. https://stackoverflow.com/questions/55985556/dialogflow-intent-is-no-longer-matching-on-an-existing-entity-parameter
