@@ -25,6 +25,8 @@ before things get beyond the Agent’s ability to pull answers?
     1. Are some better than others?
     2. What would be best for our POC with Superintendent types?
     3. GoogleAssistant is integrated with dialogflow. Should we start with that? https://assistant.google.com/platforms/phones/
+15. Can we come to a solution for these questions by adding another layer of abstraction, or by getting a more elevated view of our problem space?    
+
 
 ## General project and bot Questions
 What we don’t know - Start of Questions:
