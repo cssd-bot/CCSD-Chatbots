@@ -27,7 +27,8 @@ Can look for some answers in https://stackoverflow.com/questions/tagged/dialogfl
 15. If we consider the 5 W's our bot should be able to manage Who, What, Where, and eventually When. Should we align our intents with this? Do these ultimately work in as result types like Show, Count...?  
 16. Is it helpful to bring in a limited subset of verbs (not related to the desired result types) as an entity? ie: Actions we do in a school context, ie: Work, Serve, Know, Have, Offer...
 17. If I get a Where request that results in an address, can I pass it to Google Maps app via the Google Assistant?
-
+18. What needs to be done to capture Bot analyics? Stumped on questions, hits on entities etc. 
+    1. What are the KPI's we need/want to track?
 
 ## General project and bot Questions
 What we don’t know - Start of Questions:
