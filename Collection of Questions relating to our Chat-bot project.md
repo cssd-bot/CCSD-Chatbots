@@ -85,3 +85,5 @@ What we don’t know - Start of Questions:
    4. For an Intent, limit the number of School-Entities to 2, ie: School & Staff
    5. Use a Metadata entity to enumerate all the School-Entities
    
+   new ideas
+   1. Apply a layer of abstraction between the sql and the Action/parameters (not sql) 
