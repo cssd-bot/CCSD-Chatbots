@@ -28,6 +28,7 @@ before things get beyond the Agent’s ability to pull answers?
 15. Can we come to a solution for these questions by adding another layer of abstraction, or by getting a more elevated view of our problem space?
 16. If we consider the 5 W's our bot should be able to manage Who, What, Where, and eventually When. Should we align our intents with this? Do these ultimately work as result types like Show, Count...?  
 17. Is it helpful to bring in a limited subset of verbs (not related to the desired result types) as an entity? ie: Actions we do in a school context, ie: Work, Serve, Know, Have, Offer...
+18. If I get a Where request that results in an address, can I pass it to Google Maps app via the Google Assistant?
 
 
 ## General project and bot Questions
