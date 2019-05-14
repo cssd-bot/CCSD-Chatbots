@@ -15,20 +15,18 @@ Can look for some answers in https://stackoverflow.com/questions/tagged/dialogfl
 8. Is it reasonable to pull from a fulfillment system’s object model to come up with the EntityTypes? How would the properties (attributes) tie in?
    1. Developer composite: https://dialogflow.com/docs/entities/developer-entities
    2. Should DialogFlow entities be the entity business key to the eternal data?
-9. How large or fully should you design your Entity model/hierarchy? Ie School, (Staff, Class, Location…), Staff.Job, Staff.email..., Class.Program, Class.Size…
-before things get beyond the Agent’s ability to pull answers?
+9. How large or fully should you design your Entity model/hierarchy? Ie School, (Staff, Class, Location…), Staff.Job, Staff.email..., Class.Program, Class.Size… before things get beyond the Agent’s ability to pull answers?
 10. WIth intent training phrases and interplay with system entities & our custom ones, how best would we setup @Sys.FirstName and @Sys.LastName and our @CSSDStaff when asking if a person work from CSSD? Want to avoid confusion between entity types. Do we only use @CSSDStaff and if null we answer right away? Same with @School one could ask “Is Lord Beaverbrook one our our schools?”
 11. When defining staff names for the CSSDStaff entity, should the base be FirstName LastName and the synonyms include full and preferred names? Using this will create duplicates based off common first and last names. We could put all the dups as synonyms  with preferred and middle names, but then would lose the distinctness a user provided. Is the matched synonym available when a phrase hits on one of the entity’s synonyms? (yes I found it in the Context)
-12. What techniques can one use to simplify the translation of actions with multiple entities into a SQL query? Simplify the combinatorics that explode out. 
-13. What’s the right way to pull verbs or “Asks” from an Intent into an Entity for that purpose? We kind of need this in the action to determine our response. 
-14. How do I hookup my Agent to a host like Slack or Facebook or whatever? 
+12. What’s the right way to pull verbs or “Asks” from an Intent into an Entity for that purpose? We kind of need this in the action to determine our response. Or is this the role of the intent phrases?
+13. How do I hookup my Agent to a host like Slack or Facebook or whatever? 
     1. Are some better than others?
     2. What would be best for our POC with Superintendent types?
     3. GoogleAssistant is integrated with dialogflow. Should we start with that? https://assistant.google.com/platforms/phones/
-15. Can we come to a solution for these questions by adding another layer of abstraction, or by getting a more elevated view of our problem space?
-16. If we consider the 5 W's our bot should be able to manage Who, What, Where, and eventually When. Should we align our intents with this? Do these ultimately work as result types like Show, Count...?  
-17. Is it helpful to bring in a limited subset of verbs (not related to the desired result types) as an entity? ie: Actions we do in a school context, ie: Work, Serve, Know, Have, Offer...
-18. If I get a Where request that results in an address, can I pass it to Google Maps app via the Google Assistant?
+14. Can we come to a solution for these questions by adding another layer of abstraction, or by getting a more elevated view of our problem space?
+15. If we consider the 5 W's our bot should be able to manage Who, What, Where, and eventually When. Should we align our intents with this? Do these ultimately work in as result types like Show, Count...?  
+16. Is it helpful to bring in a limited subset of verbs (not related to the desired result types) as an entity? ie: Actions we do in a school context, ie: Work, Serve, Know, Have, Offer...
+17. If I get a Where request that results in an address, can I pass it to Google Maps app via the Google Assistant?
 
 
 ## General project and bot Questions
@@ -77,3 +75,13 @@ What we don’t know - Start of Questions:
 
 ## Posted questions on forums
 1. https://stackoverflow.com/questions/55985556/dialogflow-intent-is-no-longer-matching-on-an-existing-entity-parameter
+
+## Design Questions
+1. What techniques/patterns can one use to simplify the translation of actions with multiple entities into a SQL query? Simplify the combinatorics that explode out. Some old ideas:
+   1. Naming of entities match external entities
+   2. Categorize Entities into Result-Type, MetaData, School-Entities, maybe agregation as SQL offers this 
+   2. Have a requested Result-Type action, ie: show me, how many, where is, yes/no
+   3. Rely on foreign key relationships to link 2 entities together
+   4. For an Intent, limit the number of School-Entities to 2, ie: School & Staff
+   5. Use a Metadata entity to enumerate all the School-Entities
+   
