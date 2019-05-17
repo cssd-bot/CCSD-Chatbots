@@ -21,6 +21,6 @@ Our map shows the 2 states with the translation problem being going from one to 
 * 1 for an SQL statement syntax
 * 1 for an action & parameter set
 
-Things in the action set are allowed to change before the SQL as we have flexibility here
-Then introduce ways to transform the action into SQL
-Break these into smaller pieces
+Things in the action set are allowed to change before the SQL, as we have flexibility here.
+Still need to introduce ways to transform the action into SQL.
+Also need to break these into smaller pieces.
