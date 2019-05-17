@@ -1,4 +1,4 @@
-##Starting at the End
+## Starting at the End
 
 **This is what I've determined to be the highest priority problem**:
 
@@ -16,7 +16,7 @@
 1. Not enough time with our group to come together over this problem
 2. Insufficient problem solving to abstract the out the complexity for a simplified solution
 
-##Sprint Map - map the problem.  **Translation Map**
+## Sprint Map - map the problem.  **Translation Map**
 Our map shows the 2 states with the translation problem being going from one to the other. 
 * 1 for an SQL statement syntax
 * 1 for an action & parameter set
