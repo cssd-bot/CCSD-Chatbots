@@ -24,3 +24,31 @@ Our map shows the 2 states with the translation problem being going from one to 
 Things in the action set are allowed to change before the SQL, as we have flexibility here.
 Still need to introduce ways to transform the action into SQL.
 Also need to break these into smaller pieces.
+
+## How Might We (HMW)##
+Here are some statements about our taqrgeted problem that could be turned into HMW statements:
+* Seems intents could work with the limited set of verbs. Just the ones that our agents can respond to.
+  * Staff Entity ==> Work, Is at, Employed...
+  * School Entity ==> Is in, How many...
+* Could the verbs be further limted when defined with another school entity?
+  * Staff & School ==> Works at, Runs...
+  * School & Municipal Division ==> In, part of...
+  * Here it seems Order matters - Subject of the verb vs. predicate object
+  * **Exercise:** Come up with all the verbs that make sence between any 2 school entities.
+  * Then does any given verb change how the SQL should be coded?
+  * Should these be contained in the "Result Type" or "W's" entities?
+* Should we assume when a sentence is a question the 1st school entity is the subject, and the 2nd school entity is the predicate's object? (or deal with Disjuntive Questions)
+* **Note:** Predicate is a verb with an optional object. Can we imply the object? 
+* **Note:** The set of "W's" or "WH's" most prevalent terms are: Who, What, Where, How, How Many... 
+  * we should also be able to limit these the the ones our agent can answer. What are these? 
+* **Exercise:** Make an excel spreadsheet with all our School entity pairs for the following Question types
+  * Then come up with all the 
+    1. Yes/No type questions our agent could answer
+    2. W's type questions our agent could answer
+    3. Choice questions our agent could answer   
+  * Identify the subject, predicate verb, predicate object
+  * Look for any patterns  
+* Determine any of the simple or small steps that can move this problem forward. 
+* Now pull out as many HMW statements as we can from this information
+  
+    
