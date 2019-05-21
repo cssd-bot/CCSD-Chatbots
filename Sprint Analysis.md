@@ -25,11 +25,12 @@ Things in the action set are allowed to change before the SQL, as we have flexib
 Still need to introduce ways to transform the action into SQL.
 Also need to break these into smaller pieces.
 
-## How Might We (HMW)##
+## How Might We (HMW) ##
 Here are some statements about our taqrgeted problem that could be turned into HMW statements:
 * Seems intents could work with the limited set of verbs. Just the ones that our agents can respond to.
   * Staff Entity ==> Work, Is at, Employed...
   * School Entity ==> Is in, How many...
+* Our School Entities as well as the SQL query language have their constraints relative to the questions that could be answered. These need to be identified and integreated into our solution. 
 * Could the verbs be further limted when defined with another school entity?
   * Staff & School ==> Works at, Runs...
   * School & Municipal Division ==> In, part of...
