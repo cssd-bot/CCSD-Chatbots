@@ -53,5 +53,6 @@ Here are some statements about our taqrgeted problem that could be turned into H
   * Look for any patterns  
 * Review all of this info, now and pull out as many HMW statements as we can
 * Determine any of the simple or small steps that can move this problem forward. 
+* Remember, if things get too complicated, it's time to rethink the solution.
   
     
