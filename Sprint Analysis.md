@@ -1,3 +1,4 @@
+# [Design Sprint](https://www.thesprintbook.com/)
 ## Starting at the End
 
 **This is what I've determined to be the highest priority problem**:
@@ -13,15 +14,16 @@
 **Where do we want to by end of school year**? Have a framework that could manage requests with any combination of two school entities.
 
 **How could this fail** (turn fears into questions)?
-1. Not enough time with our group to come together over this problem
-2. Insufficient problem solving to abstract the out the complexity for a simplified solution
+1. Not enough of what we learn is able to transfer to other agents the students want to create for their school
+2. Insufficient problem solving to abstract out the complexity for a simplified solution
+3. Our Chatbot fails to get the intended answer in a high enough percentage of asks 
 
 ## Sprint Map - map the problem.  **Translation Map**
 Our map shows the 2 states with the translation problem being going from one to the other. 
 * 1 for an SQL statement syntax
 * 1 for an action & parameter set
 
-Things in the action set are allowed to change before the SQL, as we have flexibility here.
+Things in the action set are allowed to adapt before the SQL, as we have flexibility here.
 Still need to introduce ways to transform the action into SQL.
 Also need to break these into smaller pieces.
 
@@ -44,7 +46,7 @@ Here are some statements about our targeted problem that could be turned into HM
   * **Exercise:** Come up with all the verbs that make sence between 1 school entity and an implied object.
 * **Note:** The set of "Wh's" most prevalent terms are: Who, What, Where, How, How Many... 
   * we should also be able to limit these with the ones our agent can answer. What are these? 
-* **Exercise:** Make an excel spreadsheet with all our School entity combinations from above, and categroize then into: 
+* **Exercise:** Make an excel spreadsheet with all our School entity combinations from above, and categroize them into: 
   * [Question types](https://preply.com/en/blog/2014/11/13/types-of-questions-in-english/)
     1. Yes/No type questions our agent could answer
     2. Wh's type questions our agent could answer
