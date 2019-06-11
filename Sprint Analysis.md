@@ -11,7 +11,7 @@
 
 **Why**? This should allow students creating bots to connect their Agents to the data containing their answers without them having to fully understand this process. Get them from their initial concept for their Agent to one that can provide answers contained in a SQL database.
 
-**Where do we want to by end of school year**? Have a framework that could manage requests with any combination of two school entities.
+**Where do we want to be by end of school year**? Have a framework that could manage requests with any combination of two school entities.
 
 **How could this fail** (turn fears into questions)?
 1. Not enough of what we learn is able to transfer to other agents the students want to create for their school
@@ -19,7 +19,7 @@
 3. Our Chatbot fails to get the intended answer in a high enough percentage of asks 
 
 ## Sprint Map - map the problem.  **Translation Map**
-Our map shows the 2 states with the translation problem being going from one to the other. 
+Our map shows the 2 states with the translation problem going from one to the other. 
 * 1 for an SQL statement syntax
 * 1 for an action & parameter set
 
