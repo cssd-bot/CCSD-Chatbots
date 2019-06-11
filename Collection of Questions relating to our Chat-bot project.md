@@ -6,8 +6,8 @@ Can look for some answers in https://stackoverflow.com/questions/tagged/dialogfl
 1.	Can an agent pass on a question to another agent?  (single source answers to specific agents)?
 2.	How much should a single agent be able to answer? 
 3.	Is complexity the driving factor or are there others?
-4.	What criteria should be used to group intents under an agent?
-5.	What causes agents to get confused on which intent to use?
+4.	What criteria should be used to group intents under an agent? Based on constraint of only simple question that do not entail further dialog. 
+5.	What causes agents to get confused on which intent training phrase to use?
 6.	For a given EntityType can I update the list of Entity entries from a external source? Ie: Schools => Notre Dame, St. Rita, Bishop Carroll…
     1. Dialogflow also provides tools for managing entities, including mechanisms for exporting and uploading entity data and modifying entities via API.
     2. https://cloud.google.com/dialogflow-enterprise/docs/reference/system-entities
@@ -16,9 +16,9 @@ Can look for some answers in https://stackoverflow.com/questions/tagged/dialogfl
    1. Developer composite: https://dialogflow.com/docs/entities/developer-entities
    2. Should DialogFlow entities be the entity business key to the eternal data?
 9. How large or fully should you design your Entity model/hierarchy? Ie School, (Staff, Class, Location…), Staff.Job, Staff.email..., Class.Program, Class.Size… before things get beyond the Agent’s ability to pull answers?
-10. WIth intent training phrases and interplay with system entities & our custom ones, how best would we setup @Sys.FirstName and @Sys.LastName and our @CSSDStaff when asking if a person work from CSSD? Want to avoid confusion between entity types. Do we only use @CSSDStaff and if null we answer right away? Same with @School one could ask “Is Lord Beaverbrook one our our schools?”
-11. When defining staff names for the CSSDStaff entity, should the base be FirstName LastName and the synonyms include full and preferred names? Using this will create duplicates based off common first and last names. We could put all the dups as synonyms  with preferred and middle names, but then would lose the distinctness a user provided. Is the matched synonym available when a phrase hits on one of the entity’s synonyms? (yes I found it in the Context)
-12. What’s the right way to pull verbs or “Asks” from an Intent into an Entity for that purpose? We kind of need this in the action to determine our response. Or is this the role of the intent phrases?
+10. With intent training phrases and interplay with system entities & our custom ones, how best would we setup @Sys.FirstName and @Sys.LastName and our @CSSDStaff when asking if a person work from our School District? Want to avoid confusion between entity types. Do we only use @CSSDStaff and if null we answer right away? Same with @School one could ask “Is Lord Beaverbrook one our our schools?”
+11. When defining staff names for the CSSDStaff entity, should the base be FirstName LastName and the synonyms include full and preferred names? Using this will create duplicates based off common first and last names. We could put all the dups as synonyms  with preferred and middle names, but then would lose the distinctness a user provided. Is the matched synonym available when a phrase hits on one of the entity’s synonyms? (yes it is. I found it in the Context object)
+12. What’s the right way to pull verbs or “Asks” from an Intent into an Entity for that purpose? We kind of need this in the action to determine our response. Or is this the role of the different intents or phrases?
 13. How do I hookup my Agent to a host like Slack or Facebook or whatever? 
     1. Are some better than others?
     2. What would be best for our POC with Superintendent types?
